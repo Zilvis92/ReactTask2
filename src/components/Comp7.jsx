@@ -1,11 +1,9 @@
-import React from 'react'
-
 const Comp7 = () => {
   const words = ['Spider-man', 'Iron-man', 'Hulk', 'Thor', 'Captain America'];
   
   return (
     <div>
-      <h2>"Komp7" - heroju sarasas</h2>
+      <h2>Heroju sarasas</h2>
       <ul>
         {words.map((word, index) => (
           <li key={index}>{word}</li>
@@ -15,4 +13,4 @@ const Comp7 = () => {
   );
 };
 
-export default Comp7
+export default Comp7;
